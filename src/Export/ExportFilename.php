@@ -92,7 +92,7 @@ final class ExportFilename
             }
 
             if (!$hasName) {
-                $filename .= '-kimai-export';
+                $filename .= '-tks-export';
             }
 
             $filename = str_replace(['/', '\\'], '-', $filename);
